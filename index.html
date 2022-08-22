@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Birthday</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1 class="title">Is your Birthday lucky? 🤨</h1>
+        <label class="label" for="date-of-birth">Enter your birthdate: </label>
+        <input type="date" id="date-of-birth">
+
+        <label class="label" for="lucky-number">Enter your lucky number: </label>
+        <input type="number" id="lucky-number" min="0">
+
+        <button class="btn">Check</button>
+
+        <p class="result"></p>
+        <div class="img-container lucky">
+            <img src="./images/lucky-dance.gif" class="lucky-img" alt="a person dancing happily">
+        </div>
+
+        <div class="img-container notlucky">
+            <img class="unlucky-img" src="./images/giphy.gif" alt="A kid crying">
+        </div>
+
+        <p class="disclaimer">Disclaimer: We do not store any private information</p>
+        <footer class="footer">
+            <a class="link-social" href="https://twitter.com/Jagrut_Sharma" target="_blank">
+                <img class="footer-img" src="./images/Twitter social icons - circle - blue.png" alt="twitter logo">
+            </a>
+
+            <a class="link-social" href="https://github.com/jagrut-sharma" target="_blank">
+                <img class="footer-img" src="./images/GitHub-Mark-64px.png" alt="github logo">
+            </a>
+
+            <a class="link-social" href="https://www.linkedin.com/in/jagrut-sharma/" target="_blank">
+                <img class="footer-img" src="./images/LI-In-Bug.png" alt="linked in logo">
+            </a>
+        </footer>
+    </main>
+</body>
+<script src="./app.js" type="text/javascript"></script>
+
+</html>

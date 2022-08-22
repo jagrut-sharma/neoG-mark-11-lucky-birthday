@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&display=swap');
+
+:root {
+    --background-color: #cbd5e1;
+    --footer-color: #7c2d12;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    background-color: var(--background-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.title{
+    color: var(--footer-color);
+    text-align: center;
+}
+
+.label {
+    padding: 1rem;
+}
+
+#date-of-birth {
+    width: 13rem;
+    text-align: center;
+    padding: 0.5rem;
+    font-family: inherit;
+    border-radius: 1rem;
+}
+
+#lucky-number {
+    width: 13rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-family: inherit;
+    border-radius: 1rem;
+}
+
+.btn {
+    padding: 0.5rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.result {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.img-container {
+    display: none;
+}
+
+.img-container .lucky-img, .img-container .unlucky-img{
+    width: 300px;
+}
+
+.disclaimer {
+    margin-top: auto;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.footer {
+    padding: 1.2rem 0;
+    width: 100%;
+    text-align: center;
+    background-color: var(--footer-color);
+}
+
+.footer-img {
+    width: 2rem;
+    margin: 0 1rem;
+}
+
+.footer .link-social {
+    text-decoration: none;
+    margin: 0.5rem;
+}
